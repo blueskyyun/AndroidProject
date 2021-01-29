@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PuzzleGame</string>
+    <string name="score">Score: %1$d</string>
+    <string-array name="level_arr">
+        <item>2 X 2</item>
+        <item>3 X 3</item>
+        <item>4 X 4</item>
+        <item>5 X 5</item>
+    </string-array>
+</resources>

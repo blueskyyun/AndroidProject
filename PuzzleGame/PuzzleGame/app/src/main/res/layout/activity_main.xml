@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mac.puzzlegame.MainActivity"
+    android:padding="15dp"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/tv_level"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:text="choose the level:"
+    android:textSize="32sp">
+</TextView>
+   <Spinner
+       android:id="@+id/spn_level"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_marginTop="15dp"
+       android:entries="@array/level_arr"
+       />
+   <Button
+       android:id="@+id/btn_1"
+       android:layout_width="200dp"
+       android:layout_height="80dp"
+       android:background="@drawable/btn_selector"
+       android:text="New Game"
+       android:textAllCaps="false"
+       android:textColor="#696969"
+       android:textSize="32sp"
+       android:layout_marginTop="30dp"
+       android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
+
+
